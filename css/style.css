@@ -1,0 +1,28 @@
+header{
+	/*background-color: #34495e!important;*/
+	color: #fff;
+	height: 112px;
+	line-height: 112px;
+}
+header a.logo{
+	float: left!important;
+}
+header nav{
+	float: right!important;
+	font-weight: bold;
+}
+header nav ul li{
+	padding-left: 30px;
+}
+header nav ul li a{
+	color: #fff;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+header nav ul li a:hover,header nav ul li a:focus{
+	color: #e74c3c;
+	text-decoration: none;
+
+}
